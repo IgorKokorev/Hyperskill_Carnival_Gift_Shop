@@ -1,0 +1,23 @@
+type: matching
+captions:
+    - "<code>console.log([8, 5].concat(arr.splice(4)));</code>"
+    - "<code>console.log(\"853962\".split(\"\", 4));</code>"
+    - "<code>console.log(arr.splice(2, 6));</code>"
+    - "<code>console.log(arr.slice(2, 6));</code>"
+options:
+    - "[8, 5, 3, 9, 6, 2]"
+    - "[8, 5, 3, 9]"
+    - "[8, 5, 3, 9, 6, 2, 4]"
+    - "['8', '5', '3', '9']"
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16367#comment
+status: Solved
+record: -1
+ordering:
+    - 0
+    - 1
+    - 2
+    - 3

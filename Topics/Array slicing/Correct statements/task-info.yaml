@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+    -   text: slice() can always be replaced by splice()
+    -   text: concat() requires an array as an argument
+    -   text: split() returns an array of strings
+    -   text: splice() modifies an existing array
+    -   text: splice() returns a changed array
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16366#comment
+status: Solved
+record: -1
+local_check: false

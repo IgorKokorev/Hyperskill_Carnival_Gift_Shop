@@ -1,0 +1,10 @@
+custom_name: Object methods and keyword "this"
+content:
+    - Theory
+    - Arrow functions
+    - Nested objects
+    - Inside a box
+    - Object with this in nested method
+    - Syntax
+    - Counter
+    - Functions as object properties

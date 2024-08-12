@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+    -   text: The console will log &#x27;Promise1 is rejected&#x27; and return &#x27;Promise2
+            is resolved&#x27;
+    -   text: '&#x27;Promise1 is rejected&#x27; is logged and unhandled Promise rejection
+    error would be thrown'
+    -   text: The console will log &#x27;Promise1 is resolved&#x27;
+    -   text: The console will log &#x27;Promise1 is rejected&#x27; and then &#x27;Promise2
+            is resolved&#x27;
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/43762#comment
+status: Solved
+record: -1
+local_check: false

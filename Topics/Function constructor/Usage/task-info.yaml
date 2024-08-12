@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+    -   text: For object inheritance
+    -   text: To create similar objects
+    -   text: For comparing objects
+    -   text: For initializing multiple objects in a single call
+files:
+    -   name: main.js
+        visible: true
+        learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9973#comment
+status: Solved
+record: -1
+local_check: false

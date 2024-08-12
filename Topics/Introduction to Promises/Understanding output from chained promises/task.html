@@ -1,0 +1,20 @@
+<div class="step-text">
+<p></p><div class="alert alert-warning">Hey there! This problem might be a bit unpredictable, but give it a go and let us know how you do!</div>In JavaScript, consider the following implementation of chained Promises. What will be the output if the 'condition1' is false and 'condition2' is true?<pre><code class="language-javascript">new Promise((resolve, reject) =&gt; {
+  let condition1 = false;
+  if (condition1) {
+    resolve('Promise1 is resolved');
+  } else {
+    reject('Promise1 is rejected');
+  }
+}).then((message) =&gt; {
+  console.log(message);
+  let condition2 = true;
+  if(condition2) {
+    return 'Promise2 is resolved';
+  } else {
+    return 'Promise2 is rejected';
+  }
+}).catch((message) =&gt; {
+  console.log(message);
+});</code></pre>
+</div>
